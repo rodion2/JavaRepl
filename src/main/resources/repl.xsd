@@ -1,0 +1,18 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://spring.io/guides/gs-producing-web-service" elementFormDefault="qualified">
+    <xs:element name="evaluate">
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="body" type="xs:string"/>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="MyRequest">
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="body" type="xs:string"></xs:element>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
